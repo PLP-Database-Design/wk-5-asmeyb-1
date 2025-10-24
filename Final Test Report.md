@@ -11,9 +11,9 @@
 
 | Role | Name | Responsibilities |
 |------|------|------------------|
-| Test Manager | | Planning, scheduling, coordination, metric tracking |
-| Risk Analyst | | Risk identification, prioritization, test design linkage |
-| Test Executor | | Execution, evidence capture, defect logging |
+| Test Manager | Asmamaw Yismaw | Planning, scheduling, coordination, metric tracking |
+| Risk Analyst | Jostina Mwamburi | Risk identification, prioritization, test design linkage |
+| Test Executor | Whitney Shisia | Execution, evidence capture, defect logging |
 
 ## Group Rules
 
@@ -123,9 +123,9 @@
 
 | Name | Role | Initials | Date |
 |------|------|-----------|------|
-| | Test Manager | | |
-| | Risk Analyst | | |
-| | Test Executor | | |
+| Asmamaw Yismaw | Test Manager | | |
+| Jostina Mwamburi | Risk Analyst | | |
+| Whitney Shisia | Test Executor | | |
 
 ## Overall Summary
 
