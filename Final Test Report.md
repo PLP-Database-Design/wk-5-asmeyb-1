@@ -111,30 +111,45 @@
 
 ## Defects
 
-| ID | Issue Title | Severity | Risk ID | Status | GitHub Link |
-|----|-------------|----------|---------|--------|-------------|
-| | | | | | |
+| ID | Issue Title                              | Severity | Risk ID | Status | GitHub Link          |
+| -- | ---------------------------------------- | -------- | ------- | ------ | -------------------- |
+|D1  |Responsive Layout Breaks on Medium Screen Sizes | High| R6     | Open   | [https://github.com/PLP-Database-Design/wk-5-asmeyb-1/issues/4] |
+| D2 | Rules slightly confusing to players      | Medium   | R8      | Open   | [https://github.com/PLP-Database-Design/wk-5-asmeyb-1/issues/2]|
+| D3 | Puzzle repetition — limited word variety | High     | R9      | Open   | [https://github.com/PLP-Database-Design/wk-5-asmeyb-1/issues/3]|
+
 
 ## Metrics
 
-- Test Case Pass Percent: 
-- Defect Density: 
-- Risk Coverage Percent: 
-- Regression Success Rate: 
+| Metric                      | Value | Formula / Basis                                      |
+| --------------------------- | ----- | ---------------------------------------------------- |
+| **Test Case Pass Percent**  | 66.7% | (6 passed / 9 total) × 100                           |
+| **Defect Density**          | 0.33  | (3 defects / 9 test cases)                           |
+| **Risk Coverage Percent**   | 90%   |                                                      |
+| **Regression Success Rate** | 80%   | Based on re-testable features with minor issues only |
+ 
 
 ### Defect Summary
 
-- Total Defects Logged: 
-- Critical High: 
-- Fix Rate: 
+| Metric                   | Count              |
+| ------------------------ | ------------------ |
+| **Total Defects Logged** | 3                  |
+| **Critical / High**      | 2                  |
+| **Fix Rate**             | 0% (pending fixes) |
+
 
 ## Test Control & Project Management
 
 ### Phases
 
-| Phase | Deliverable | Actual Output | Variance | Owner |
-|-------|-------------|---------------|----------|-------|
-| | | | | |
+| **Phase**           | **Deliverable**             | **Actual Output**      | **Variance** | **Owner**     |
+| ------------------- | --------------------------- | ---------------------- | ------------ | ------------- |
+| **Planning**        | Test Plan Document          | Completed on schedule  | None         | Test Manager  |
+| **Risk Analysis**   | Risk Assessment Report      | Completed successfully | None         | Risk Analyst  |
+| **Test Design**     | Test Scenarios & Test Cases | Took 1 hour longer     | +1 hour      | Test Manager  |
+| **Execution**       | Functional Test Report      | Executed as planned    | None         | Test Executor |
+| **Regression**      | Retest after fixes          | Completed successfully | None         | Test Executor |
+| **Report Assembly** | Final Test Summary Report   | Compiled and submitted | None         | Test Manager  |
+
 
 **Progress Tracking Method:**  
 **Change Control Notes:**
@@ -156,7 +171,7 @@
 |------|------|-----------|------|
 | Asmamaw Yismaw | Test Manager | | |
 | Jostina Mwamburi | Risk Analyst | | |
-| Whitney Shisia | Test Executor | | |
+| Whitney Shisia | Test Executor | W.S| 10/26/2025|
 
 ## Overall Summary
 
