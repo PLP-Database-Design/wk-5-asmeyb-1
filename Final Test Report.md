@@ -163,13 +163,13 @@
 
 ## Attachments
 
-- 
+- # Nothing to attache here
 
 ## Sign Off
 
 | Name | Role | Initials | Date |
 |------|------|-----------|------|
-| Asmamaw Yismaw | Test Manager | | |
+| Asmamaw Yismaw | Test Manager | A.Y | 10/26/26 |
 | Jostina Mwamburi | Risk Analyst | J.M|10/26/2025 |
 | Whitney Shisia | Test Executor | W.S| 10/26/2025|
 
@@ -177,4 +177,4 @@
 
 **Statement:** 
 
-**Test Status:** ☐ Completed / ☐ In Progress / ☐ Deferred
+**Test Status:** ✅ Completed / ☐ In Progress / ☐ Deferred
