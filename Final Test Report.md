@@ -80,15 +80,15 @@
 
 | ID | Feature | Risk Description | Likelihood | Impact | Priority | Mitigation Strategy |
 |----|---------|------------------|------------|--------|----------|---------------------|
-| R1|Reset Game |Reset button fails to clear score or puzzle progress correctly |high|high |high |Conduct repeated reset tests; verify counters reset to zero and game state reinitialized |
-|R2|Leaderboard|Scores not stored or sorted correctly in localStorage|high|high|high|Test multiple scores|
-|R3|Bonus Round|Bonus not triggered after every 3 puzzles|medium|medium|medium|Test sequences (3rd, 6th, 9th puzzles); confirm doubled score applied|
-|R4|Hint system|Hint deduction (-2 points) misapplied or double-counted|medium|medium|medium|Verify hint deduction sequence and total score after use|
-|R5|Scoring|Score overflow or negative value after repeated bonuses|low|low|low|Add boundary checks and validation for score value|
-|R6|Responsive screen|Game layout not adapting correctly to various screen sizes|high|high|high|Apply responsive CSS grid/flexbox; test on multiple devices and breakpoints; use Chrome DevTools to simulate screens|
-|R7|UI Buttons|Buttons freeze or overlap after rapid clicks|medium|medium|medium|Conduct rapid-click stress test; debounce actions|
-|R8|Instructions / Rules|Player misinterprets hint cost or bonus rule|medum|medium|medium|Improve wording in Rules section; add in-game tooltip|
-|R9|Puzzle variety|Game shows same or limited puzzles repeatedly instead of random new ones|high|high|high|Expand word database or randomize puzzle selection logic; test multiple sessions|
+| R1|Reset Game |Reset button fails to clear score or puzzle progress correctly |High|High |High |Conduct repeated reset tests; verify counters reset to zero and game state reinitialized |
+|R2|Leaderboard|Scores not stored or sorted correctly in localStorage|High|High|High|Test multiple scores|
+|R3|Bonus Round|Bonus not triggered after every 3 puzzles|Medium|Medium|Medium|Test sequences (3rd, 6th, 9th puzzles); confirm doubled score applied|
+|R4|Hint system|Hint deduction (-2 points) misapplied or double-counted|Medium|Medium|Medium|Verify hint deduction sequence and total score after use|
+|R5|Scoring|Score overflow or negative value after repeated bonuses|Low|Low|Low|Add boundary checks and validation for score value|
+|R6|Responsive screen|Game layout not adapting correctly to various screen sizes|High|High|High|Apply responsive CSS grid/flexbox; test on multiple devices and breakpoints; use Chrome DevTools to simulate screens|
+|R7|UI Buttons|Buttons freeze or overlap after rapid clicks|Medium|Medium|Medium|Conduct rapid-click stress test; debounce actions|
+|R8|Instructions / Rules|Player misinterprets hint cost or bonus rule|Medum|Medium|Medium|Improve wording in Rules section; add in-game tooltip|
+|R9|Puzzle variety|Game shows same or limited puzzles repeatedly instead of random new ones|High|High|High|Expand word database or randomize puzzle selection logic; test multiple sessions|
 
 ### Risk Coverage
 
@@ -99,15 +99,15 @@
 
 | ID | Feature | Objective | Expected Result | Actual Result | Status | Risk Link |
 |----|---------|-----------|----------------|---------------|--------|-----------|
-|T1|Reset Game |Verify reset clears score and progress |Resets to 0 | works as expected| passed|R1 |
-|T2|Leaderboard|Validate descending sort (top 3 scores)|Sort correctly|works as expected|passed|R2|
-|T3|Bonus Round|Verify ×2 score every 3rd puzzle|Bonus applied|work as expected|passes|R3|
-|T4|Hint system|Verify hint deducts 2 points|Deduction works correctly|works as expected|passed|R4|
-|T5|Scoring|Verify +10 points added for solving without hint|Each correct word adds +10|Points added correctly|passed|R5|
-|T6|Responsive screen|Verify layout adjusts to different devices|Components resize and align properly|Layout breaks on small screens|failed|R6|
-|T7|UI buttons|Test rapid clicks stability|No freeze/overlap|Minor lag|passed|R7|
-|T8|Instruction|Evaluate clarity of rules|Player understands rules|slightly confusing|failed|R8|
-|T9|Puzzle Variety|Verify new random puzzles appear after each solved one|Different words shown each round|Same few puzzles repeating|failed|R9|
+|T1|Reset Game |Verify reset clears score and progress |Resets to 0 | Works as expected| Passed|R1 |
+|T2|Leaderboard|Validate descending sort (top 3 scores)|Sort correctly|Works as expected|Passed|R2|
+|T3|Bonus Round|Verify ×2 score every 3rd puzzle|Bonus applied|Work as expected|Passed|R3|
+|T4|Hint system|Verify hint deducts 2 points|Deduction works correctly|Works as expected|Passed|R4|
+|T5|Scoring|Verify +10 points added for solving without hint|Each correct word adds +10|Points added correctly|Passed|R5|
+|T6|Responsive screen|Verify layout adjusts to different devices|Components resize and align properly|Layout breaks on medium screens|Failed|R6|
+|T7|UI buttons|Test rapid clicks stability|No freeze/overlap|Minor lag|Passed|R7|
+|T8|Instruction|Evaluate clarity of rules|Player understands rules|Slightly confusing|Failed|R8|
+|T9|Puzzle Variety|Verify new random puzzles appear after each solved one|Different words shown each round|Same few puzzles repeating|Failed|R9|
 
 ## Defects
 
@@ -170,7 +170,7 @@
 | Name | Role | Initials | Date |
 |------|------|-----------|------|
 | Asmamaw Yismaw | Test Manager | | |
-| Jostina Mwamburi | Risk Analyst | | |
+| Jostina Mwamburi | Risk Analyst | J.M|10/26/2025 |
 | Whitney Shisia | Test Executor | W.S| 10/26/2025|
 
 ## Overall Summary
