@@ -151,8 +151,8 @@
 | **Report Assembly** | Final Test Summary Report   | Compiled and submitted | None         | Test Manager  |
 
 
-**Progress Tracking Method:**  
-**Change Control Notes:**
+**Progress Tracking Method:**  Daily burn-down in GitHub Project and update on WhatsApp
+**Change Control Notes:**  Any scope change discussed in Teams channel(WhatsApp Group & Google Meet) → logged as issue
 
 ## Lessons Learned
 
