@@ -152,7 +152,7 @@
 
 
 **Progress Tracking Method:**  Daily burn-down in GitHub Project and update on WhatsApp
-**Change Control Notes:**  Any scope change discussed in Teams channel(WhatsApp Group & Google Meet) → logged as issue
+**Change Control Notes:**  Any scope change discussed in Teams channel(WhatsApp Group & Google Meet) logged as issue
 
 ## Lessons Learned
 
@@ -160,8 +160,8 @@
 - Risk Analysis Impact: 83 % coverage focused 70 % of effort on high-priority areas
 - Team Communication Effectiveness: It was very good communication we use WhatsApp for texting & Google Meeting to take meetings and of course email conversation
 - Improvements for Next Cycle: Automate regression with Cypress  
-                               Add accessibility risk category  
-                               Introduce static analysis (ESLint) to catch JS off-by-one earlier
+                             : Add accessibility risk category  
+                             : Introduce static analysis (ESLint) to catch JS off-by-one earlier
   
 
 ## Attachments
