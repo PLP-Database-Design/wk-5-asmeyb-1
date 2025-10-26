@@ -124,7 +124,7 @@
 | --------------------------- | ----- | ---------------------------------------------------- |
 | **Test Case Pass Percent**  | 66.7% | (6 passed / 9 total) × 100                           |
 | **Defect Density**          | 0.33  | (3 defects / 9 test cases)                           |
-| **Risk Coverage Percent**   | 90%   |                                                      |
+| **Risk Coverage Percent**   | 90%   |  9 out of 10 identified risks                                                    |
 | **Regression Success Rate** | 80%   | Based on re-testable features with minor issues only |
  
 
