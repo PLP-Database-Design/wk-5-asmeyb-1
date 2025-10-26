@@ -150,9 +150,8 @@
 | **Regression**      | Retest after fixes          | Completed successfully | None         | Test Executor |
 | **Report Assembly** | Final Test Summary Report   | Compiled and submitted | None         | Test Manager  |
 
-
-**Progress Tracking Method:**  Daily burn-down in GitHub Project and update on WhatsApp
-**Change Control Notes:**  Any scope change discussed in Teams channel(WhatsApp Group & Google Meet) logged as issue
+**Progress Tracking:** Daily burn-down in GitHub Project, WhatsApp Group and Google Meet  
+**Change Control:** Any scope change discussed in Teams channel → logged as issue #15
 
 ## Lessons Learned
 
