@@ -156,10 +156,13 @@
 
 ## Lessons Learned
 
-- Most Defect Prone Feature: 
-- Risk Analysis Impact: 
-- Team Communication Effectiveness: 
-- Improvements for Next Cycle: 
+- Most Defect Prone Feature: Bonus-round arithmetic (off-by-one)
+- Risk Analysis Impact: 83 % coverage focused 70 % of effort on high-priority areas
+- Team Communication Effectiveness: It was very good communication we use WhatsApp for texting & Google Meeting to take meetings and of course email conversation
+- Improvements for Next Cycle: Automate regression with Cypress  
+                               Add accessibility risk category  
+                               Introduce static analysis (ESLint) to catch JS off-by-one earlier
+  
 
 ## Attachments
 
